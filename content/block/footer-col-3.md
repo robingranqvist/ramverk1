@@ -1,3 +1,3 @@
-#### Footer col 3
+#### Kurs på Github
 
-Med brödtext i ett stycke som säger något trevligt om just detta block, eller kanske en lista av länkar.
+Klicka här för att komma till [mitt repo på Github](https://github.com/robingranqvist/ramverk1)

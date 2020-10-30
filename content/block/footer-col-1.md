@@ -1,3 +1,3 @@
-#### Footer col 1
+#### Kurs
 
-Med brödtext i ett stycke som säger något trevligt om just detta block, eller kanske en lista av länkar.
+Klicka här för att komma till [kursens hemsida på dbwebb.se](https://dbwebb.se/kurser/ramverk1-v2)

@@ -1,3 +1,3 @@
-#### Footer col 2
+#### Kurs på Github
 
-Med brödtext i ett stycke som säger något trevligt om just detta block, eller kanske en lista av länkar.
+Klicka här för att komma till [kursens repo på Github](https://github.com/dbwebb-se/ramverk1)
