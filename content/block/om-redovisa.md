@@ -1,3 +1,3 @@
 #### Redovisa på GitHub
 
-Här kan ni hitta mitt [kursrepo](XXX).
+Här kan ni hitta mitt [kursrepo](https://github.com/robingranqvist/ramverk1).
