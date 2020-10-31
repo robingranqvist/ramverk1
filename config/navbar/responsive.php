@@ -49,5 +49,10 @@ return [
             "url" => "verktyg",
             "title" => "Verktyg och möjligheter för utveckling.",
         ],
+        [
+            "text" => "IP Check",
+            "url" => "ipcheck",
+            "title" => "IP Check.",
+        ],
     ],
 ];

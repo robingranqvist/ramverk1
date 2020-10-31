@@ -99,6 +99,7 @@ class StyleChooserController implements ContainerInjectableInterface
         return $page->render([
             "title" => $title,
         ]);
+
     }
 
 
