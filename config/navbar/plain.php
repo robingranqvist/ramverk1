@@ -38,5 +38,10 @@ return [
             "url" => "ipcheck",
             "title" => "IP Check.",
         ],
+        [
+            "text" => "IP Check GEO",
+            "url" => "ipcheckgeo",
+            "title" => "IP Check GEO.",
+        ],
     ],
 ];
