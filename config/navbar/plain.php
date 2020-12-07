@@ -43,5 +43,10 @@ return [
             "url" => "ipcheckgeo",
             "title" => "IP Check GEO.",
         ],
+        [
+            "text" => "Väder",
+            "url" => "geotag",
+            "title" => "Väder",
+        ],
     ],
 ];
