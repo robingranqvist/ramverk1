@@ -13,15 +13,15 @@ class GeoTagModelTest extends TestCase
     /**
      * Testing the test route
      */
-    public function testGetCurrentTemp()
-    {   
-        // Setup
-        $geoTag = new GeoTag();
-        $geoTag->getCurrentWeather(60.85, 26.76);
+    // public function testGetCurrentTemp()
+    // {   
+    //     // Setup
+    //     $geoTag = new GeoTag();
+    //     $geoTag->getCurrentWeather(60.85, 26.76);
 
-        $res = $geoTag->getCurrentTemp();
-        $this->assertIsFloat($res);
-    }
+    //     $res = $geoTag->getCurrentFeelsLike();
+    //     $this->assertIsString($res);
+    // }
 
     public function testGetCurrentFeelsLike()
     {   

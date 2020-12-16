@@ -5,7 +5,7 @@ namespace Anax\Controller;
 use Anax\Commons\ContainerInjectableInterface;
 use Anax\Commons\ContainerInjectableTrait;
 use Robin\Models\GeoTag;
-use Robin\Models\Geo;
+use Robin\Models\GeoTagIp;
 
 // use Anax\Route\Exception\ForbiddenException;
 // use Anax\Route\Exception\NotFoundException;
@@ -51,7 +51,7 @@ class GeoTagController implements ContainerInjectableInterface
         $geoTag = new GeoTag();
 
         if ($ip_main != "") {
-            $ip_test = new Geo();
+            $ip_test = new GeoTagIp();
             $ip_test->setupGeoIp($ip_main);
 
             if ($ip_test->getRegion() == "") {
@@ -169,7 +169,7 @@ class GeoTagController implements ContainerInjectableInterface
         $geoTag = new GeoTag();
 
         if ($ip_main != "") {
-            $ip_test = new Geo();
+            $ip_test = new GeoTagIp();
             $ip_test->setupGeoIp($ip_main);
 
             if ($ip_test->getRegion() == "") {
