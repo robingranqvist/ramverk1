@@ -2,10 +2,10 @@
 
 namespace Anax\View;
 
-if (!$_SERVER['HTTP_X_FORWARDED_FOR']) {
-    $ip = $_SERVER['REMOTE_ADDR'];
+if (!getenv('HTTP_X_FORWARDED_FOR')) {
+    $ip = getenv('REMOTE_ADDR');
 } else {
-    $ip = $_SERVER['HTTP_X_FORWARDED_FOR'];
+    $ip = getenv('HTTP_X_FORWARDED_FOR');
 }
 
 ?>
